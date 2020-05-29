@@ -6,6 +6,8 @@ class Player extends Component {
             <div>
                 <ReactPlayer 
                 controls
+                width = "480px"
+                height = "240px"
                 url = 'https://www.youtube.com/watch?v=LoLqSbV1ELU'
                 />
             </div>
