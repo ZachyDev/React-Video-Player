@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Player from './main/Player'
 function App() {
   return (
     <div className="App">
       React Video Player
+      <Player />
     </div>
   );
 }
