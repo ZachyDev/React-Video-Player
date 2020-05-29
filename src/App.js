@@ -4,7 +4,7 @@ import Player from './main/Player'
 function App() {
   return (
     <div className="App">
-      React Video Player
+      <h1>React Video Player</h1>
       <Player />
     </div>
   );

@@ -4,7 +4,10 @@ class Player extends Component {
     render() {
         return (
             <div>
-                <ReactPlayer url = 'https://www.youtube.com/watch?v=LoLqSbV1ELU'/>
+                <ReactPlayer 
+                controls
+                url = 'https://www.youtube.com/watch?v=LoLqSbV1ELU'
+                />
             </div>
         )
     }
