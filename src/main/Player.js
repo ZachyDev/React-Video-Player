@@ -12,7 +12,7 @@ class Player extends Component {
                 onReady = { () => console.log('onReady handler')}
                 onStart = { () => console.log('onStart handler')}
                 onPause = { () => console.log('onPause handler')}
-                onEnded= { () => console.log('onEnde handler')}
+                onEnded= { () => console.log('onEnded handler')}
                 onError= { () => console.log('onError handler')}
                 />
             </div>
